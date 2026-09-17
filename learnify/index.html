@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ================================================================
+    LEARNIFY — ED-TECH / ONLINE LEARNING LANDING PAGE TEMPLATE
+    A variant of the premium Nexus landing template family.
+    Pure HTML / CSS / JS — no frameworks, no build tools.
+    ================================================================ -->
+
+  <title>Learnify — Master New Skills, Faster</title>
+  <meta name="description" content="Learnify is the online learning platform that turns any subject into interactive lessons, smart quizzes, and certificates. Learn faster, remember longer." />
+
+  <meta property="og:title" content="Learnify — Master New Skills, Faster" />
+  <meta property="og:description" content="Interactive lessons, smart quizzes, and certificates — on any device. Start learning free." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://your-domain.com/" />
+  <meta property="og:image" content="assets/images/og-cover.png" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="site-header" id="site-header">
+    <nav class="container nav" aria-label="Main navigation">
+      <a href="#" class="brand" aria-label="Learnify home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 10v6"/></svg>
+        </span>
+        <span class="brand-name">Learnify</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features" class="nav-link">Features</a></li>
+        <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+        <li><a href="#testimonials" class="nav-link">Learners</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <a href="#pricing" class="btn btn-primary btn-sm">Start free</a>
+
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <ul class="mobile-menu-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">Learners</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#pricing" class="btn btn-primary mobile-menu-cta">Start learning free</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="hero">
+      <div class="container hero-inner">
+        <div class="hero-glow hero-glow-1" aria-hidden="true"></div>
+        <div class="hero-glow hero-glow-2" aria-hidden="true"></div>
+
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          New: AI lesson summaries in 30+ languages
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </div>
+
+        <h1 class="hero-title reveal" delay="1">
+          Learn faster,<br />
+          <span class="gradient-text">remember longer</span>
+        </h1>
+
+        <p class="hero-subtitle reveal" delay="2">
+          Learnify turns any subject into interactive lessons, smart quizzes,
+          and certificates you can share — no downloads, no deadlines, no stress.
+        </p>
+
+        <div class="hero-cta reveal" delay="3">
+          <a href="#pricing" class="btn btn-primary btn-lg">
+            Start learning free
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#how-it-works" class="btn btn-ghost btn-lg">
+            <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            Watch demo
+          </a>
+        </div>
+
+        <p class="hero-note reveal" delay="4">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Free forever plan · Learn on any device · 12,000+ learners
+        </p>
+
+        <!-- Course hub mockup -->
+        <div class="hero-dashboard reveal" delay="5">
+          <div class="dashboard-window">
+            <div class="window-bar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="window-title">learnify.com/learn</span>
+            </div>
+            <div class="dashboard-body">
+              <aside class="dash-sidebar" aria-hidden="true">
+                <div class="dash-logo"></div>
+                <div class="dash-menu-item active"></div>
+                <div class="dash-menu-item"></div>
+                <div class="dash-menu-item"></div>
+                <div class="dash-menu-item"></div>
+                <div class="dash-menu-item"></div>
+              </aside>
+              <div class="dash-main course-main">
+                <div class="course-header">
+                  <div class="course-title"></div>
+                  <div class="course-stats"><span>🔥 <span class="stat-strong">12-day</span> streak</span><span>⚡ <span class="stat-strong">2,340</span> XP</span></div>
+                </div>
+                <div class="course-tabs">
+                  <div class="course-tab active"></div>
+                  <div class="course-tab"></div>
+                  <div class="course-tab"></div>
+                </div>
+                <div class="lesson-list">
+                  <div class="lesson-row">
+                    <div class="lesson-icon done">✓</div>
+                    <div class="lesson-body">
+                      <div class="lesson-line"></div>
+                      <div class="lesson-progress"></div>
+                    </div>
+                    <div class="lesson-check">✓</div>
+                  </div>
+                  <div class="lesson-row">
+                    <div class="lesson-icon">▶</div>
+                    <div class="lesson-body">
+                      <div class="lesson-line short"></div>
+                      <div class="lesson-progress"></div>
+                    </div>
+                    <div class="lesson-play">▶</div>
+                  </div>
+                  <div class="lesson-row">
+                    <div class="lesson-icon">📝</div>
+                    <div class="lesson-body">
+                      <div class="lesson-line"></div>
+                      <div class="lesson-progress"></div>
+                    </div>
+                    <div class="lesson-play">▶</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Floating chips -->
+          <div class="floating-chip chip-1" aria-hidden="true">
+            <span class="chip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="M22 4L12 14.01l-3-3"/></svg>
+            </span>
+            <div>
+              <strong>Lesson completed</strong>
+              <small>+25 XP · 8 min</small>
+            </div>
+          </div>
+          <div class="floating-chip chip-2" aria-hidden="true">
+            <span class="chip-icon pink">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-5"/></svg>
+            </span>
+            <div>
+              <strong>Mastery up 42%</strong>
+              <small>Progress this week</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LOGO STRIP ================= -->
+    <section class="logo-strip" aria-label="Trusted by top institutions">
+      <div class="container">
+        <p class="logo-strip-label">Teams learning at</p>
+        <div class="logo-row">
+          <span class="logo-item">◼ Northwind</span>
+          <span class="logo-item">◆ Altara</span>
+          <span class="logo-item">▲ Codeworks</span>
+          <span class="logo-item">● Brightmode</span>
+          <span class="logo-item">✚ Skillforge</span>
+          <span class="logo-item">⬢ Lumen</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FEATURES ================= -->
+    <section class="section features" id="features">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Features</p>
+          <h2 class="section-title">Everything you need to<br /><span class="gradient-text">master anything</span></h2>
+          <p class="section-sub">Interactive content, smart science, and proof of progress — in one platform.</p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg>
+            </div>
+            <h3>Interactive Video Lessons</h3>
+            <p>Pause, rewind, and answer in-video quizzes. Learning sticks when you're part of the lesson, not just watching it.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <h3>AI Lesson Summaries</h3>
+            <p>Every lesson distilled into crisp takeaways — auto-translated into 30+ languages. Perfect for quick reviews.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            </div>
+            <h3>Smart Quiz Engine</h3>
+            <p>Spaced repetition schedules reviews exactly when you're about to forget. Study less, remember more.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 10v6"/></svg>
+            </div>
+            <h3>Shareable Certificates</h3>
+            <p>Finish a path and earn a verifiable certificate you can add to LinkedIn, a CV, or a portfolio.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-5"/></svg>
+            </div>
+            <h3>Progress Analytics</h3>
+            <p>Streaks, XP, and mastery heatmaps that show your growth — and keep you motivated week after week.</p>
+          </article>
+
+          <article class="feature-card reveal">
+            <div class="feature-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </div>
+            <h3>Learn Anywhere</h3>
+            <p>Mobile apps, offline downloads, and progress that syncs. Your next lesson is always one tap away.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="section how-it-works" id="how-it-works">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2 class="section-title">Mastering a skill in <span class="gradient-text">three steps</span></h2>
+          <p class="section-sub">From first lesson to certified — your own pace.</p>
+        </div>
+
+        <div class="steps">
+          <div class="step reveal">
+            <div class="step-number">01</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            </div>
+            <h3>Pick a path</h3>
+            <p>Choose from 1,000+ courses or build a custom learning path for your exact goals.</p>
+          </div>
+
+          <div class="step reveal" delay="1">
+            <div class="step-number">02</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+            </div>
+            <h3>Learn daily</h3>
+            <p>Bite-size 10-minute lessons scheduled with spaced repetition. Consistent beats intense.</p>
+          </div>
+
+          <div class="step reveal" delay="2">
+            <div class="step-number">03</div>
+            <div class="step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+            </div>
+            <h3>Get certified</h3>
+            <p>Pass the final assessment and earn a verifiable certificate you can share anywhere.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRICING ================= -->
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Pricing</p>
+          <h2 class="section-title">Invest in yourself. <span class="gradient-text">Learn for less than coffee.</span></h2>
+          <p class="section-sub">Start free. Upgrade when you want more. Cancel anytime.</p>
+
+          <div class="billing-toggle reveal">
+            <span class="toggle-label">Monthly</span>
+            <label class="switch" aria-label="Toggle yearly billing">
+              <input type="checkbox" id="billing-toggle" />
+              <span class="slider"></span>
+            </label>
+            <span class="toggle-label">Yearly <span class="save-badge">Save 25%</span></span>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="pricing-card reveal">
+            <h3 class="plan-name">Free</h3>
+            <p class="plan-desc">For curious minds getting started.</p>
+            <div class="price-row">
+              <span class="price" data-monthly="0" data-yearly="0">$0</span>
+              <span class="price-period">/forever</span>
+            </div>
+            <ul class="plan-features">
+              <li>5 curated courses</li>
+              <li>Smart quizzes</li>
+              <li>Community access</li>
+              <li>Email support</li>
+            </ul>
+            <a href="#" class="btn btn-outline btn-block">Start free</a>
+          </article>
+
+          <article class="pricing-card popular reveal" delay="1">
+            <span class="popular-badge">Most popular</span>
+            <h3 class="plan-name">Pro</h3>
+            <p class="plan-desc">For serious learners making progress.</p>
+            <div class="price-row">
+              <span class="price" data-monthly="12" data-yearly="9">$12</span>
+              <span class="price-period">/mo</span>
+            </div>
+            <ul class="plan-features">
+              <li>1,000+ courses &amp; paths</li>
+              <li>AI lesson summaries</li>
+              <li>Certificates &amp; offline mode</li>
+              <li>Progress analytics</li>
+              <li>Priority support</li>
+              <li>Ad-free learning</li>
+            </ul>
+            <a href="#" class="btn btn-primary btn-block">Start 7-day free trial</a>
+          </article>
+
+          <article class="pricing-card reveal" delay="2">
+            <h3 class="plan-name">Teams</h3>
+            <p class="plan-desc">For companies &amp; educators.</p>
+            <div class="price-row">
+              <span class="price" data-monthly="custom" data-yearly="custom">Custom</span>
+              <span class="price-period"></span>
+            </div>
+            <ul class="plan-features">
+              <li>Everything in Pro</li>
+              <li>Bulk seats &amp; billing</li>
+              <li>Admin analytics</li>
+              <li>SSO / SAML</li>
+              <li>Dedicated manager</li>
+              <li>99.9% uptime SLA</li>
+            </ul>
+            <a href="#" class="btn btn-outline btn-block">Talk to sales</a>
+          </article>
+        </div>
+
+        <p class="pricing-note reveal">All paid plans include a 7-day money-back guarantee.</p>
+      </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Learners</p>
+          <h2 class="section-title">People who <span class="gradient-text">learned with Learnify</span></h2>
+          <p class="section-sub">Join 12,000+ learners building skills that matter.</p>
+        </div>
+
+        <div class="testimonial-grid">
+          <figure class="testimonial-card reveal">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"I finished a full web development path in three months — 10 minutes a day. The scheduling just worked with my life."</blockquote>
+            <figcaption>
+              <span class="avatar" style="--avatar-color:#0ea5e9;">RA</span>
+              <div>
+                <strong>Raka Aditya</strong>
+                <small>Frontend dev, Codeworks</small>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card reveal" delay="1">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"The AI summaries saved me before every presentation. I review a topic in 5 minutes and walk in confident."</blockquote>
+            <figcaption>
+              <span class="avatar" style="--avatar-color:#8b5cf6;">SN</span>
+              <div>
+                <strong>Sari Nugraha</strong>
+                <small>Product manager, Altara</small>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial-card reveal" delay="2">
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"We rolled out Learnify for 40 employees. The team analytics alone are worth it — we finally see real skill growth."</blockquote>
+            <figcaption>
+              <span class="avatar" style="--avatar-color:#f59e0b;">TW</span>
+              <div>
+                <strong>Thomas Wijaya</strong>
+                <small>L&amp;D Lead, Northwind</small>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section faq" id="faq">
+      <div class="container container-sm">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 class="section-title">Frequently asked <span class="gradient-text">questions</span></h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item reveal">
+            <summary>Do I need prior knowledge of the topic?<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+            <p>No. Every path starts at beginner level and adapts to your pace. You can also test out of topics you already know.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Can I learn on my phone?<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+            <p>Yes — iOS, Android, and any browser. Lessons sync instantly, and Pro includes offline downloads for commutes.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>How do certificates work?<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+            <p>Pass the final assessment and you earn a unique, verifiable certificate — easy to add to LinkedIn or a CV.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Is the free plan really free?<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+            <p>Really free — no credit card required. You get 5 courses and full quiz access, forever.</p>
+          </details>
+          <details class="faq-item reveal">
+            <summary>Can my team or students use Learnify?<span class="faq-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+            <p>Yes — the Teams plan supports bulk seats, admin analytics, and SSO. Many companies and schools use it.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FINAL CTA ================= -->
+    <section class="section final-cta" id="cta">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-glow" aria-hidden="true"></div>
+          <h2 class="cta-title">Ready to learn something <span class="gradient-text">new</span>?</h2>
+          <p class="cta-sub">Join 12,000+ learners sharpening skills with Learnify. Your first lesson takes 10 minutes.</p>
+          <div class="cta-actions">
+            <a href="#pricing" class="btn btn-primary btn-lg">Start learning free</a>
+            <a href="#" class="btn btn-white btn-lg">Book a demo</a>
+          </div>
+          <p class="cta-note">Free forever plan · No credit card · Learn on any device</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="brand">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5"/><path d="M22 10v6"/></svg>
+            </span>
+            <span class="brand-name">Learnify</span>
+          </a>
+          <p>The online learning platform that turns any subject into interactive lessons, quizzes, and certificates.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Twitter/X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+            <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56 0-.27-.01-1.17-.02-2.12-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.73.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.66.41.36.78 1.05.78 2.12 0 1.53-.01 2.76-.01 3.14 0 .31.21.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a>
+            <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.55V9h3.57v11.45z"/></svg></a>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Product">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#">Certificates</a></li>
+            <li><a href="#">Mobile app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Company">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Press kit</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Resources">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Teaching on Learnify</a></li>
+            <li><a href="#">Status</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Legal">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Cookies</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Learnify Inc. All rights reserved.</p>
+        <p>Made with <span aria-hidden="true">♥</span> for lifelong learners</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
