@@ -104,7 +104,7 @@ Replace `assets/images/og-cover.png` with your own 1200×630 social preview imag
 
 ## 🙋 Support
 
-Email: **your@email.com** — we reply within 24 hours on business days.
+Email: **abinawahasan@gmail.com** — we reply within 24 hours on business days.
 
 ---
 

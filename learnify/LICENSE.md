@@ -37,4 +37,4 @@ The buyer receives free updates for the template for as long as the seller conti
 
 ---
 
-*Questions about this license? Contact: your@email.com*
+*Questions about this license? Contact: abinawahasan@gmail.com*
