@@ -1,0 +1,8 @@
+# Local-only files — never publish project brain / internal state
+.opencode/
+
+# OS junk
+.DS_Store
+
+# Editors
+*.swp
